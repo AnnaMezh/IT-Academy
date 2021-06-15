@@ -1,0 +1,6 @@
+.border {
+  border: 60px solid;
+  min-height: 100px;
+  padding: 10px;
+  border-image: url(/task4/images/quadro.png) 70 58 stretch;
+}
