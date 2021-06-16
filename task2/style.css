@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Roboto+Condensed:wght@300&display=swap");
+
+.text {
+  font-size: 20px;
+  line-height: 35px;
+  margin: 0px 0px 30px 0px;
+}
+
+.first_font {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.second_font {
+  font-family: "Roboto Condensed", sans-serif;
+}
