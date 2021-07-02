@@ -1,0 +1,15 @@
+.star {
+  display: inline-block;
+  background-image: url(/images/star_red.png);
+  width: 100px;
+  height: 86px;
+}
+
+.star:hover ~ .star:nth-child(1),
+.star:hover ~ .star:nth-child(-n + 2),
+.star:hover ~ .star:nth-child(-n + 3),
+.star:hover ~ .star:nth-child(-n + 4),
+.star:hover ~ .star:nth-child(-n + 5)
+{
+  background-image: url(/images/star.png);
+}
