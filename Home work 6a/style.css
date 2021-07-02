@@ -1,0 +1,46 @@
+.first_div a {
+  border-right: 2px solid red;
+  padding: 10px;
+}
+
+.first_div {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.second_div li {
+  display: inline;
+  border-right: 2px solid red;
+  padding: 10px;
+}
+
+.second_div ul {
+  padding-inline-start: 0px;
+}
+
+.third_div p {
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+  border-right: 2px solid red;
+}
+
+a {
+  color: green;;
+}
+
+a:hover {
+  color: red;
+}
+
+a:last-child {
+  border-right: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+p:last-child {
+  border-right: none;
+}
