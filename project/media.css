@@ -1,0 +1,156 @@
+@media (max-width: 1200px) {
+  .title__first {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+  .title__second,
+  .title__third {
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .title__fourth {
+    font-size: 20px;
+  }
+  .variety__title {
+    font-size: 30px;
+  }
+  .img__car {
+    max-width: 200px;
+  }
+  .find__car {
+    overflow: hidden;
+    margin-bottom: 55px;
+  }
+  .select__input {
+    margin-left: 240px;
+    max-width: 462px;
+    font-size: 17px;
+  }
+  .why {
+    margin-bottom: 50px;
+  }
+  .why__title {
+    font-size: 30px;
+  }
+  .why__discription {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .round {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .customer {
+    height: 580px;
+  }
+  .customer__title {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .img__cross {
+    max-width: 20%;
+  }
+  .rectangle {
+    max-width: 600px;
+  }
+  .customer__text {
+    bottom: 260px;
+  }
+  .customer__img {
+    max-width: 3%;
+  }
+  blockquote {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 14px;
+    width: 800px;
+  }
+  .call__now p span:nth-child(2) {
+    white-space: pre;
+  }
+}
+
+@media (max-width: 768px) {
+  .find__car {
+    background: none;
+    height: 510px;
+  }
+  .select__input {
+    transform: translate(-40%, -9%);
+    padding-top: 47px;
+  }
+  .customer {
+    height: 458px;
+  }
+  .rectangle {
+    transform: none;
+  }
+  blockquote {
+    width: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__nav {
+    flex-direction: column;
+  }
+  .nav__item,
+  .nav__button {
+    margin-left: 0;
+    border: 1px solid black;
+  }
+  ul li:last-child {
+    padding-top: 20px;
+  }
+  .title__first {
+    font-size: 20px;
+  }
+  .title__second,
+  .title__third {
+    font-size: 15px;
+  }
+  .title__fourth {
+    display: none;
+  }
+  .varity__description {
+    padding-bottom: 30px;
+  }
+  .block__car {
+    flex-direction: column;
+  }
+  .find__title {
+    padding-bottom: 0px;
+  }
+  .select__input {
+    width: 100%;
+    padding-top: 46px;
+    transform: translate(-58%, -9%);
+  }
+  .find__car {
+    height: 458px;
+  }
+  select,
+  input {
+    width: 300px;
+    height: 40px;
+  }
+  .why__discription {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .round__description {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  blockquote {
+    width: 378px;
+  }
+  .call__now p span:nth-child(1),
+  .call__now p span:nth-child(2) {
+    font-size: 20px;
+  }
+}

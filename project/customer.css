@@ -1,0 +1,71 @@
+.customer {
+  background-color: #23272c;
+  height: 700px;
+  margin-bottom: 60px;
+}
+
+.customer__title {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.img__cross {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.rectangle {
+  max-width: 700px;
+  height: 266px;
+  background-color: white;
+  transform: skew(160deg);
+  position: relative;
+  top: -50px;
+}
+
+.customer__text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  bottom: 245px;
+}
+
+.customer__name {
+  padding-bottom: 5px;
+}
+
+.customer__rental {
+  color: #f7d600;
+  padding-bottom: 5px;
+}
+
+blockquote {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 25px;
+}
+
+.button__slide {
+  margin-top: 70px;
+}
+
+.customer button:nth-child(odd) {
+  background-color: #f7d600;
+  width: 40px;
+  height: 12px;
+  border-radius: 15px;
+  border: 0px;
+}
+
+.customer button:nth-child(2) {
+  background-color: white;
+  width: 40px;
+  height: 12px;
+  border-radius: 15px;
+  border: 0px;
+}

@@ -1,0 +1,43 @@
+.why {
+  margin-bottom: 83px;
+}
+
+.why__title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 29px;
+}
+
+.why__discription {
+  text-align: center;
+  padding-left: 202px;
+  padding-right: 202px;
+}
+
+.box__round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.round {
+  width: 66px;
+  height: 66px;
+  border: 4px solid #f7d600;
+  background-color: #23272c;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 24px;
+}
+
+.round__description {
+  padding-left: 97px;
+  padding-right: 97px;
+}

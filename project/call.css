@@ -1,0 +1,28 @@
+.call__now {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.call__now h6 {
+  font-size: 30px;
+  margin-bottom: 23px;
+}
+
+.call__tel {
+  font-size: 36px;
+  font-weight: bold;
+  color: #23272c;
+  margin-bottom: 40px;
+}
+
+.call__now p span:nth-child(1) {
+  color: #f7d600;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.call__now p span:nth-child(2) {
+  color: #23272c;
+  font-size: 36px;
+  font-weight: bold;
+}
