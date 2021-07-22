@@ -154,3 +154,21 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 320px) {
+  .select__input {
+  transform: translate(-90%, -9%);
+  }
+  .customer__text {
+  font-size: 14px;
+  }
+  blockquote {
+    width: 280px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 10px;
+  }
+  .call__now p span:nth-child(2) {
+    font-size: 18px;
+  }
+}
