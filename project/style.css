@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url(header.css);
+@import url(banner.css);
+@import url(variety.css);
+@import url(find_car.css);
+@import url(round.css);
+@import url(customer.css);
+@import url(call.css);
+@import url(footer.css);
+@import url(media.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "", sans-serif;
+  max-width: 1148px;
+}
+
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

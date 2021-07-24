@@ -1,0 +1,38 @@
+.variety {
+  padding-top: 56px;
+  max-width: 1005px;
+  margin-bottom: 80px;
+}
+
+.variety__title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.varity__description {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.block__car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.img__car {
+  height: 100%;
+  max-width: 300px;
+}
+
+.mark__car {
+  background-color: #f7d600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}

@@ -1,0 +1,35 @@
+.header__container {
+  font-size: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  margin-left: 32px;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+
+.nav__link {
+  color: #181818;
+}
+
+.nav__button {
+  background-color: #f7d600;
+  padding: 10px 31px;
+  margin-left: 32px;
+  border-radius: 25px;
+  color: black;
+}
