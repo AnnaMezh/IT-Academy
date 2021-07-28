@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 40px;
+  background-color: #add7e6;
+  text-align: center;
+  line-height: 40px;
+  color: #0000ff;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+}
+
+nav {
+  width: 30%;
+  background-color: #f0e68c;
+  padding-inline-start: 20px;
+}
+
+main {
+  padding: 15px;
+  background-image: url(/div/images/ball.png);
+  background-size: 48px;
+  background-position: right bottom;
+  background-repeat: repeat-y;
+  text-align: left;
+  vertical-align: top;
+}
+
+img {
+  float: left;
+  padding: 10px;
+}
+
+footer {
+  height: 64px;
+  background-color: #add7e6;
+  text-align: center;
+  line-height: 64px;
+  color: #0000ff;
+}
+
+footer p {
+  margin: 0;
+}
+
+.foot {
+  text-align: center;
+}
