@@ -1,0 +1,88 @@
+.site__container {
+  overflow: hidden;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header__container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social__item {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+.social__item:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.social__item:nth-child(1) {
+  background-image: url(/image/TW.svg);
+  width: 20px;
+  height: 17px;
+  margin-right: 40px;
+}
+
+.social__item:nth-child(2) {
+  background-image: url(/image/FB.svg);
+  width: 11px;
+  height: 20px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.header__burger {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 48px;
+  height: 10px;
+  position: relative;
+}
+
+.burger:hover .burger__line {
+  background-color: #e8594e;
+  transition: background-color 0.3s;
+}
+
+.burger__line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: background-color 0.3s;
+}
+
+.burger__line:last-child {
+  top: auto;
+  bottom: 0;
+}
