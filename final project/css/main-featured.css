@@ -1,0 +1,125 @@
+.featured {
+  background-image: url(/image/featured.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1080px;
+  position: relative;
+}
+
+.featured__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.featured__article {
+  padding-bottom: 100px;
+}
+
+.featured__stories {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 35%;
+  background-color: rgba(17, 31, 42, 0.9);
+  padding: 120px 130px;
+}
+
+.blog__category {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 15px 30px;
+  background-color: #e8594e;
+  border-radius: 100px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.title__blog {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: white;
+  max-width: 53%;
+  margin-bottom: 30px;
+}
+
+.blog__description {
+  color: white;
+  font-size: 20px;
+  line-height: 21px;
+  margin-bottom: 40px;
+  max-width: 38%;
+}
+
+.blog__link {
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 30px 80px;
+  background-color: #73afba;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.blog__link:hover {
+  background-color: #466a70;
+  transition: background-color 0.3s;
+}
+
+.featured__title {
+  color: white;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 84px;
+  margin-bottom: 60px;
+}
+
+.featured-list__article {
+  border-bottom: 1px solid #4d5a5f;
+  display: flex;
+  align-items: flex-start;
+  padding: 32px 0;
+}
+
+.featured-list__item:last-child .featured-list__article {
+  border-bottom: 1px solid transparent;
+}
+
+.featured-list__image {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.featured-list__text {
+    margin-left: 30px;
+    padding-right: 30px;
+}
+
+.featured-list__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.featured-list__time {
+    font-size: 11px;
+    color:rgba(255, 255, 255, 0.5)
+}
